@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+* img {
+    cursor: pointer;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Assistant',"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+header {
+    box-shadow: (0, 0, 0, 0.05) 0px 4px 12px 0px;
+    /* height: 80px; */
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-color: white;
+}
+
+.spacer{
+    height:80px;
+}
+
+.left img {
+    width: 53px;
+    height: 36px;
+    text-align: start;
+    margin-left: 61px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    margin-right: 53px;
+} 
+
+.navContent {
+    letter-spacing: normal;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+   
+}
+.new-badge {
+    color: #ff3f6c;
+    font-size: 10px;
+    margin-left: 2px;
+    vertical-align: super;
+    margin-right: 56px;
+  }
+
+.navIcons {
+    width: 24px;
+    height: 24px;
+}
+
+.search-icon {
+    width:21px;
+    height: 21px;
+}
+.search-button {
+    background-color: #faf9f9;
+    border: none;
+    padding: 8px;
+    border-radius: 4px 0px 0px 4px;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+
+.profile-icon {
+    margin:12px 16px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .profile-text {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+.searchBar {
+    width: 486px;
+    height: 39px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px solid #ccc;
+    margin-right:9px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+    color: #696e79;
+    border-radius:0px 4px 4px 0px;
+    background-color: #faf9f9;
+    outline: none;
+}
+.container {
+    padding: 0 10vw;
+    margin:auto;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1 {
+    background-color: rgb(209, 207, 207);
+    height: 122vh;
+}
+
+.belowNavImg {
+    width: 100%;
+}
+
+.footer{
+    height: 300px;
+    background-color: #f7f7f7;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width:168px;
+    height:230px;
+    object-fit: cover;
+    margin: 0px;
+  }
+
+  .lastgallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lastgallery img {
+    width:244px;
+    height:400px;
+    object-fit: cover;
+    margin: 3px;
+  }
+
+  .footer-img {
+    width: 70px;
+    height: 60px;
+  }
